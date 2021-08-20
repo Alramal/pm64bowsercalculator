@@ -86,6 +86,7 @@ button {
 #bClaw {
   top: 575px;
   left: 525px;
+  backgroung: url("bowserMoves/bowserClaw.png");
 }
 
 #bStomp {
