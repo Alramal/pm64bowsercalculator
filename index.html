@@ -1,0 +1,33 @@
+<!DOCTYPE html><html lang="en"><head>
+    <script src="p5.js"></script>
+    <script src="p5.sound.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="utf-8">
+  </head>
+  <body>
+    <script src="sketch.js"></script>
+    <script src="jquery-3.3.1.min.js"></script>
+    <input type="range" min="0" max="20" value="20" class="slider" id="MarioHP">
+    <input type="range" min="0" max="15" value="15" class="slider" id="MarioFP">
+    <input type="range" min="0" max="99" value="99" class="slider" id="BowserHP">
+    <button id="bClaw" onclick="bMove(0)"></button>
+    <button id="bStomp" onclick="bMove(1)"></button>
+    <button id="bFire" onclick="bMove(2)"></button>
+    <button id="bWave" onclick="bMove(3)"></button>
+    <button id="bShield" onclick="bMove(4)"></button>
+    <button id="bHeal" onclick="bMove(5)"></button>
+<!--     <p>
+      <h1 id="bobo">
+        
+      </h1>
+    </p>
+    <script>
+    var slider = document.getElementById("BowserHP");
+    var output = document.getElementById("bobo");
+    output.innerHTML = slider.value;
+    slider.oninput = function() {
+      output.innerHTML = this.value;
+    }
+    </script> -->
+  
+</body></html>

@@ -1,0 +1,114 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+canvas {
+  display: block;
+}
+
+button {
+  border: none;
+  padding: 77px 77px;
+  background: transparent;
+  border: none !important;
+  font-size:10;
+  position: absolute;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+/*---------------------------Slider------------------------------*/
+
+.slider  {
+  appearance: none;
+  width: 928px;
+  height: 128px;
+  background: url("hud/bar.png");
+  position: absolute;
+}
+
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  width: 128px;
+  height: 128px;
+  cursor: pointer;
+}
+
+/*
+.slider::-moz-range-thumb {
+  width: 32px;
+  height: 32px;
+  cursor: pointer;
+}
+*/
+
+#MarioHP {
+  top: 16px;
+  left: 0px;
+}
+
+#MarioHP::-moz-range-thumb {
+  background: url("hud/heartMario.png");
+}
+
+#MarioHP::-webkit-slider-thumb {
+  background: url('hud/heartMario.png');
+}
+
+#MarioFP {
+  top: 134px;
+  left: 0px;
+}
+
+#MarioFP::-moz-range-thumb {
+  background: url("hud/flower.png");
+}
+
+#MarioFP::-webkit-slider-thumb {
+  background: url('hud/flower.png');
+}
+
+#BowserHP {
+  top: 16px;
+  left: 960px;
+}
+
+#BowserHP::-moz-range-thumb {
+  background: url("hud/heartBowser.png");
+}
+
+#BowserHP::-webkit-slider-thumb {
+  background: url('hud/heartBowser.png');
+}
+
+/*---------------------------Button------------------------------*/
+
+#bClaw {
+  top: 575px;
+  left: 525px;
+}
+
+#bStomp {
+  top: 575px;
+  left: 880px;
+}
+
+#bFire {
+  top: 575px;
+  left: 1235px;
+}
+
+#bWave {
+  top: 875px;
+  left: 525px;
+}
+
+#bShield {
+  top: 875px;
+  left: 880px;
+}
+
+#bHeal {
+  top: 875px;
+  left: 1235px;
+}
