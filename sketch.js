@@ -1,6 +1,6 @@
 function preload() {
   bg = loadImage("bg_1920x1080.png");
-  bClaw = loadImage("bowserMoves/bowserClaw.png");
+  bClaw = loadImage("./bowserMoves/bowserClaw.png");
   bStomp = loadImage("bowserMoves/bowserStomp.png");
   bWave = loadImage("bowserMoves/bowserStarWave.png");
   bFire = loadImage("bowserMoves/bowserFireBreath.png");
@@ -40,12 +40,12 @@ function draw() {
   rect(224, 372, 364, 160, 15);
   rect(224, 550, 364, 160, 15);
 //   image(hBowser, 300, 300);
-//   image(bClaw, 600, 650);
-//   image(bWave, 600, 950);
-//   image(bStomp, 955, 650);
-//   image(bShield, 955, 950);
-//   image(bFire, 1310, 650);
-//   image(bHeal, 1310, 950);
+  image(bClaw, 600, 650);
+  image(bWave, 600, 950);
+  image(bStomp, 955, 650);
+  image(bShield, 955, 950);
+  image(bFire, 1310, 650);
+  image(bHeal, 1310, 950);
   // button = createButton("yuyu");
   // button.position(100, 100);
   // button.mousePressed(yui);
