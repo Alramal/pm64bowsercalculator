@@ -8,7 +8,7 @@ canvas {
 
 button {
   border: none;
-  padding: 77px 77px;
+  padding: 76px 76px;
   background: transparent;
   border: none !important;
   font-size:10;
@@ -84,8 +84,8 @@ button {
 /*---------------------------Button------------------------------*/
 
 #bClaw {
-  top: 575px;
-  left: 525px;
+  top: 574px;
+  left: 524px;
 }
 
 #bStomp {
