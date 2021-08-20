@@ -39,7 +39,7 @@ function draw() {
   rect(1310, 950, 150, 150, 15);
   rect(224, 372, 364, 160, 15);
   rect(224, 550, 364, 160, 15);
-//   image(hBowser, 300, 300);
+  image(hBowser, 300, 300);
   image(bClaw, 600, 650);
   image(bWave, 600, 950);
   image(bStomp, 955, 650);
