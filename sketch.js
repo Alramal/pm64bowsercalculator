@@ -1,14 +1,14 @@
 function preload() {
-  bg = loadImage("./bg_1920x1080.png");
-  bClaw = loadImage("./bowserMoves/bowserClaw.png");
-  bStomp = loadImage("./bowserMoves/bowserStomp.png");
-  bWave = loadImage("./bowserMoves/bowserStarWave.png");
-  bFire = loadImage("./bowserMoves/bowserFireBreath.png");
-  bShield = loadImage("./bowserMoves/bowserStarShield.png");
-  bHeal = loadImage("./bowserMoves/bowserHeal.png");
-  hMario = loadImage("./hud/heartMario.png");
-  fMario = loadImage("./hud/flower.png");
-  hBowser = loadImage("./hud/heartBowser.png");
+  bg = loadImage("bg_1920x1080.png");
+  bClaw = loadImage("bowserMoves/bowserClaw.png");
+  bStomp = loadImage("bowserMoves/bowserStomp.png");
+  bWave = loadImage("bowserMoves/bowserStarWave.png");
+  bFire = loadImage("bowserMoves/bowserFireBreath.png");
+  bShield = loadImage("bowserMoves/bowserStarShield.png");
+  bHeal = loadImage("bowserMoves/bowserHeal.png");
+  hMario = loadImage("hud/heartMario.png");
+  fMario = loadImage("hud/flower.png");
+  hBowser = loadImage("hud/heartBowser.png");
 }
 
 function setup() {
