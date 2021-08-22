@@ -16,7 +16,6 @@ function preload() {
 }
 
 function setup() {
-  // document.getElementById("bMove").style.visibility = "hidden";
   createCanvas(1920, 1080);
 }
 
