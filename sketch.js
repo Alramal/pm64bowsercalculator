@@ -100,4 +100,5 @@ function changeValues() {
   }
   $("#mHP").text(mHPs);
   $("#mFP").text(mFPs);
+  $("#bHP").text(bHPs);
 }
