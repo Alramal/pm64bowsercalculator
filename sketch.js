@@ -49,6 +49,7 @@ function draw() {
   rect(1696, 372, 364, 160, 15);
   image(hMario, 324, 372);
   image(fMario, 324, 550);
+  image(hBowser, 1796, 372);
   image(bClaw, 600, 650);
   image(bWave, 600, 950);
   image(bStomp, 955, 650);
