@@ -8,7 +8,7 @@ canvas {
 
 button {
   border: none;
-  padding: 76px 76px;
+  padding: 75px 75px;
   background: transparent;
   border: none !important;
   font-size:10;
@@ -17,7 +17,60 @@ button {
   cursor: pointer;
 }
 
-/*---------------------------Slider------------------------------*/
+@font-face {
+  font-family: pmFont;
+  src: url("//db.onlinewebfonts.com/t/7201a7b79ef77544f06768280217c67f.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/7201a7b79ef77544f06768280217c67f.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/7201a7b79ef77544f06768280217c67f.woff") format("woff"), url("//db.onlinewebfonts.com/t/7201a7b79ef77544f06768280217c67f.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/7201a7b79ef77544f06768280217c67f.svg#Hey Gorgeous") format("svg");
+}
+
+p {
+  text-align: right;
+  font-family: pmFont;
+  position: absolute;
+  font-weight: bold;
+  font-size: 64px;
+}
+
+.xC {
+  font-size: 48px;
+}
+
+.counter {
+  -webkit-background-clip: text;
+  color: transparent;
+  background-image: linear-gradient(to bottom left, violet, indigo, blue, green, yellow, orange, red);
+}
+
+#mHP {
+  top: 272px;
+  left: 64px;
+}
+
+#mFP {
+  top: 450px;
+  left: 64px;
+}
+
+/* #bHP {
+  top: 272px;
+  left: 64px;
+} */
+
+#mHPx {
+  top: 288px;
+  left: 216px;
+}
+
+#mFPx {
+  top: 466px;
+  left: 216px;
+}
+
+/* #bHPx {
+  top: 272px;
+  left: 64px;
+} */
+
+/*---------------------------Slidet-------------------*/
 
 .slider  {
   appearance: none;
@@ -84,8 +137,8 @@ button {
 /*---------------------------Button------------------------------*/
 
 #bClaw {
-  top: 574px;
-  left: 524px;
+  top: 575px;
+  left: 525px;
 }
 
 #bStomp {
